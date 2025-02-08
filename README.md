@@ -35,3 +35,7 @@ Este projeto é uma aplicação web simples que permite consultar informações 
    cd consulta-cep
 
 
+Agradecimentos
+ViaCEP: Pela API gratuita e de fácil utilização.
+
+Comunidade de Desenvolvimento: Pelo suporte e compartilhamento de conhecimento.
