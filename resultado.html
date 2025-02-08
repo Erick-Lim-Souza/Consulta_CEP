@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de CEP</h1>
+        <div class="explicacao">
+            <p>Digite um CEP no campo abaixo para buscar informações sobre o endereço.</p>
+            <p>O CEP deve conter 8 dígitos, sem traços ou espaços.</p>
+        </div>
+        <form id="cepForm">
+            <label for="cep">Digite o CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="Ex: 01001000" maxlength="8" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <div class="container explicacao">
+        <h1>O que é CEP?</h1>
+        <p>
+            O CEP, sigla que representa o código de endereçamento postal, é um sistema numérico de 8 dígitos utilizado pelos Correios do Brasil e empresas de logística, para organizar endereços de forma precisa e eficiente. Se você precisa enviar uma correspondência ou receber uma compra que realizou pela internet, você vai precisar saber o CEP.
+        </p>
+    </div>
+    
+    <div class="container explicacao">
+        <h1>Sobre o Consulta CEP</h1>
+        <p>
+            O Consulta CEP é um site gratuito que possui um sofisticado sistema de busca inteligente que permite a localização de qualquer cep ou endereço em milésimos de segundos, sem a necessidade de preenchimento de captcha. Rápido, fácil e exato.
+        </p>
+    </div>
+
+    <div class="container explicacao">
+        <h1>O ue seria o CEP</h1>
+        <p>
+            O CEP (Código Postal) é um sistema de numeração que organiza os endereços no Brasil, facilitando a entrega de correspondências e encomendas pelos Correios e empresas de entrega. Composto por 8 dígitos, cada número do CEP representa uma região geográfica específica, desde a grande região até a rua. Esse sistema, criado pelos Correios em 1971, otimiza a triagem e a distribuição das entregas, garantindo maior eficiência e rapidez no processo. Até o ano de 1992 os CEP's possuíam apenas 5 dígitos, no formato 00000 e devido a quantidade de endereços e localidades, o padrão se tornou insuficiente, e em maio de 1992 os CEP's ganharam mais 3 dígitos no padrão que conhecemos hoje: 00000-000 para atender a demanda. 
+        </p>
+    </div>
+
+    <div class="historico">
+        <h2>Últimos CEPs Pesquisados</h2>
+        <ul id="listaCeps"></ul>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
