@@ -31,11 +31,58 @@ Este projeto é uma aplicação web simples que permite consultar informações 
    git clone https://github.com/seu-usuario/consulta-cep.git
 
 2. **Navegue até o diretório do projeto:**
-```bash
+
    cd consulta-cep
 
+3. **Abra o arquivo resultado.html no seu navegador:**
 
+Você pode usar um servidor local como o Live Server no VS Code para abrir o projeto.
+
+## Estrutura do Projeto
+```
+consulta-cep/
+│
+├── resultado.html       # Página principal da aplicação
+├── styles.css           # Arquivo de estilos CSS
+├── script.js            # Arquivo de lógica JavaScript
+└── README.md            # Documentação do projeto
+```
+
+## Contribuição
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga os passos abaixo:
+
+1. **Faça um fork do repositório.**
+
+2. **Crie uma nova branch:**
+
+   ```bash
+   git checkout -b minha-feature
+
+3. **Faça suas alterações e commit:**
+
+   ```bash
+   git commit -m 'Adicionando nova feature'
+
+4. **Envie para o repositório remoto:**
+   ```bash
+   git push origin minha-feature
+
+5. **Abra um Pull Request.**
+
+## Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+## Autor:
+Erick Souza
+- [Meu GitHub: Erick-Lim-Souza](https://github.com/Erick-Lim-Souza)
+- [Meu Linkedin](https://www.linkedin.com/in/erick-souza-70404686/ "Meu LinKedin")
+- [Meu perfil DIO.me](https://www.dio.me/users/erickdelimasouza "Meu perfil DIO.me")
+- [Meu perfil Alura](https://cursos.alura.com.br/user/erickdelimasouza)
+
+- E-mail: erick.devzone@gmail.com
+  
 Agradecimentos
-ViaCEP: Pela API gratuita e de fácil utilização.
-
-Comunidade de Desenvolvimento: Pelo suporte e compartilhamento de conhecimento.
+- [ViaCEP](https://viacep.com.br/): Pela API gratuita e de fácil utilização.
+  
+---
+**Desenvolvido com dedicação e foco no aprendizado de tecnologias web.**
