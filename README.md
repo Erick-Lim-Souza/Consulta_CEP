@@ -1,5 +1,3 @@
-# Consulta_CEP
-Consulta CEP
 # Consulta de CEP
 
 Este projeto é uma aplicação web simples que permite consultar informações de endereço a partir de um CEP, utilizando a API do ViaCEP. Além disso, a aplicação mantém um histórico dos últimos CEPs pesquisados.
@@ -68,6 +66,9 @@ Contribuições são bem-vindas! Se você quiser contribuir para este projeto, s
    git push origin minha-feature
 
 5. **Abra um Pull Request.**
+
+![image](https://github.com/user-attachments/assets/ca50117a-9588-4c19-a4e5-f2fb72f1d5aa)
+
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
