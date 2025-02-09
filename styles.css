@@ -1,4 +1,6 @@
 /* styles.css */
+
+/* Estilos gerais do corpo da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,40 +10,63 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    min-height: 100vh;
+    position: relative;
 }
 
+
+/* Estilos para o container principal */
 .container {
-    background-color: #fff;
+    background-color: #83e99b;
     padding: 20px;
-    border-radius: 80px;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
-    max-width: 1000px;
+    max-width: 600px;
     margin-bottom: 20px;
     text-align: center;
 }
 
+/* Estilos para o container explicacao */
+.containerexplicacao {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 50000px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para o título principal */
 h1 {
     margin-bottom: 20px;
 }
 
+/* Estilos para o formulário */
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+/* Estilos para o rótulo do campo de CEP */
 label {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-input {
+/* Estilos para o campo de entrada do CEP */
+input#cep {
+    width: 150px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
+/* Estilos para o botão de busca */
 button {
     padding: 10px;
     background-color: #28a745;
@@ -51,31 +76,89 @@ button {
     cursor: pointer;
 }
 
+/* Estilos para o botão de busca quando o mouse passa por cima */
 button:hover {
     background-color: #218838;
 }
 
+/* Estilos para a seção de resultados */
 .resultado {
     margin-top: 20px;
     text-align: left;
 }
 
+/* Estilos para os parágrafos dentro da seção de resultados */
 .resultado p {
     margin: 5px 0;
 }
 
+/* Estilos para a seção de explicação */
 .explicacao {
     text-align: left;
 }
 
+/* Estilos para os parágrafos dentro da seção de explicação */
 .explicacao p {
     margin: 5px 0;
     line-height: 1.6;
-    border-radius: 80px;
 }
 
+/* Estilos para a seção de histórico */
 .historico {
     background-color: #fff;
     padding: 20px;
-    border-radius: 80px;
-    box-shadow: 0 0 10px rgba(0, 0, 0
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para o título da seção de histórico */
+.historico h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para a lista de CEPs no histórico */
+.historico ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para os itens da lista de CEPs */
+.historico ul li {
+    background-color: #28a745;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para os itens da lista de CEPs quando o mouse passa por cima */
+.historico ul li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center; 
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0; /* Remove margens padrão */
+}
+
+footer strong {
+    color: #28a745; /* Cor verde para destacar o nome do site */
+}
